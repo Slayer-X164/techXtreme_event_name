@@ -22,8 +22,9 @@ html,body{
     height: 100vh;
     background-color: rgb(0, 0, 0);
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 .tech_xstream_name{
     font-family: "Poppins", sans-serif;
@@ -65,13 +66,13 @@ html,body{
 .sub_text{
     position: absolute;
     text-align: center;
-    top: 430px;
+    top: 480px;
     font-size: 2rem;
     letter-spacing: 0.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .event_name_btn{
-    position: absolute;
+    /* position: absolute; */
     top: 530px;
     padding: 10px 20px;
     background-color: #7b50fc;
@@ -126,6 +127,15 @@ html,body{
         transform: rotate(360deg);
     }
 }
+.btncontainer{
+    margin-top: 30px;
+    width: 100%;
+    height:20%;
+    /* background-color: #0cb1f8; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media(max-width:900px){
     .tech_xstream_name svg{
         transform: scale(6);
@@ -137,18 +147,18 @@ html,body{
 
     }
     .tech_xstream_name{
-        top: 90px;
+        top: 150px;
 
     }
     .sub_text{
 
-        top: 345px;
+        top: 400px;
         font-size: 1rem;
 
     }
     .event_name_btn{
-        position: absolute;
-        top: 460px;
+        /* position: absolute; */
+        top: 65%;
         padding: 10px 20px;
         background-color: #7b50fc;
         box-shadow: 0px 0px 20px 1px #8f68ff;
