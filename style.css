@@ -126,7 +126,7 @@ html,body{
         transform: rotate(360deg);
     }
 }
-@media(max-width:800px){
+@media(max-width:900px){
     .tech_xstream_name svg{
         transform: scale(6);
     }
@@ -142,8 +142,8 @@ html,body{
     }
     .sub_text{
 
-        top: 330px;
-        font-size: 2rem;
+        top: 345px;
+        font-size: 1rem;
 
     }
     .event_name_btn{
